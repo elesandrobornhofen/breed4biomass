@@ -1,0 +1,19 @@
+Package: breed4biomass
+Title: Phenotypic and Omics Data Sets for the Breed for Biomass Project
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Elesandro",
+    family = "Bornhofen",
+    role = c("aut", "cre"),
+    email = "bornhofen@qgg.au.dk",
+    comment = c(ORCID = "0000-0002-7447-6226"))
+Description: This package contains phenotypic data for eight traits assessed on F3 families of hybrid ryegrass and Festulollium loliacium grown in field trials in two locations. It also contains omics data for the same set of families. The omics are: SNP markers, gene expression, and NMR-based metabolomics.
+License: CC BY 4.0
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.2
+Depends: 
+    R (>= 2.10)
+LazyData: true
+Imports: 
+    tibble
