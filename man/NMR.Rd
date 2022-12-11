@@ -3,20 +3,21 @@
 \docType{data}
 \name{NMR}
 \alias{NMR}
-\title{Data of nominal brown shrimp prices by size}
+\title{Prices of over 50,000 round cut diamonds}
 \format{
-A tibble with 182 rows and 556 variables:
+A data frame with 53940 rows and 10 variables:
 \describe{
-\item{Year}{dbl Year price was recorded}
-\item{Month}{dbl Month price was recorded. Ranges from 1-12 for January - December}
-\item{\code{0-15}}{dbl denoting monthly price for the 0-15/lb. size class}
-\item{\code{15-20}}{dbl denoting monthly price for the 15-20/lb. size class}
-\item{\code{20-25}}{dbl denoting monthly price for the 20-25/lb. size class}
-\item{\code{25-30}}{dbl denoting monthly price for the 25-30/lb. size class}
-\item{\code{30-40}}{dbl denoting monthly price for the 30-40/lb. size class}
-\item{\code{40-50}}{dbl denoting monthly price for the 40-50/lb. size class}
-\item{\code{50-67}}{dbl denoting monthly price for the 50-67/lb. size class}
-\item{Pieces}{dbl denoting monthly price of pieces of shrimp totalling a pound}
+\item{price}{price in US dollars ($326--$18,823)}
+\item{carat}{weight of the diamond (0.2--5.01)}
+\item{cut}{quality of the cut (Fair, Good, Very Good, Premium, Ideal)}
+\item{color}{diamond colour, from D (best) to J (worst)}
+\item{clarity}{a measurement of how clear the diamond is (I1 (worst), SI2,
+SI1, VS2, VS1, VVS2, VVS1, IF (best))}
+\item{x}{length in mm (0--10.74)}
+\item{y}{width in mm (0--58.9)}
+\item{z}{depth in mm (0--31.8)}
+\item{depth}{total depth percentage = z / mean(x, y) = 2 * z / (x + y) (43--79)}
+\item{table}{width of top of diamond relative to widest point (43--95)}
 }
 }
 \source{
@@ -26,6 +27,7 @@ A tibble with 182 rows and 556 variables:
 NMR
 }
 \description{
-Shrimp are classified by size, 0-15 shrimp per pound, 15-20 shrimp per pound, etc. A smaller number per pound indicates larger shrimp. Nominal prices are total monthly value of brown shrimp andings within size class divided by total monthly landings within the size class.
+A dataset containing the prices and other attributes of almost 54,000
+diamonds. The variables are as follows:
 }
 \keyword{datasets}
