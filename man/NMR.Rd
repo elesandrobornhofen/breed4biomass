@@ -3,31 +3,25 @@
 \docType{data}
 \name{NMR}
 \alias{NMR}
-\title{Prices of over 50,000 round cut diamonds}
+\title{Data of nuclear magnetic resonance (NMR) binned spectra}
 \format{
-A data frame with 53940 rows and 10 variables:
-\describe{
-\item{price}{price in US dollars ($326--$18,823)}
-\item{carat}{weight of the diamond (0.2--5.01)}
-\item{cut}{quality of the cut (Fair, Good, Very Good, Premium, Ideal)}
-\item{color}{diamond colour, from D (best) to J (worst)}
-\item{clarity}{a measurement of how clear the diamond is (I1 (worst), SI2,
-SI1, VS2, VS1, VVS2, VVS1, IF (best))}
-\item{x}{length in mm (0--10.74)}
-\item{y}{width in mm (0--58.9)}
-\item{z}{depth in mm (0--31.8)}
-\item{depth}{total depth percentage = z / mean(x, y) = 2 * z / (x + y) (43--79)}
-\item{table}{width of top of diamond relative to widest point (43--95)}
-}
+A data frame with 556 rows and 144 variables.
 }
 \source{
-\url{https://www.pnas.org/content/114/7/1512/tab-figures-data}
+\url{ insert here the URL to the preprint }
 }
 \usage{
 NMR
 }
 \description{
-A dataset containing the prices and other attributes of almost 54,000
-diamonds. The variables are as follows:
+A dataset containing NMR variables obtained by processing the spectra with a bucketing algorithm
+(De Meyer et al., 2008). The data represents the area within each bin. All variables were
+mean-centered and Pareto scaled. There are 144 samples, which consists of 79 F2 families
+of hybrid ryegrass (samples b001 to b079) and 65 F2 families of \emph{Festulolium loliaceum}
+(samples b086 to b150).
+}
+\references{
+De Meyer et al. (2008) Anal. Chem. 2008, 80, 10, 3783–3790
+(\href{https://doi.org/10.1021/ac7025964}{doi.})
 }
 \keyword{datasets}

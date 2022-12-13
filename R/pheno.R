@@ -1,0 +1,28 @@
+#' Prices of over 50,000 round cut diamonds
+#'
+#' A dataset containing the prices and other attributes of almost 54,000
+#'  diamonds. The variables are as follows:
+#'
+#' @format A data frame with 53940 rows and 10 variables:
+#' \describe{
+#'   \item{entry}{price in US dollars ($326--$18,823)}
+#'   \item{pedigree_class}{weight of the diamond (0.2--5.01)}
+#'   \item{id_p1}{quality of the cut (Fair, Good, Very Good, Premium, Ideal)}
+#'   \item{id_p2}{diamond colour, from D (best) to J (worst)}
+#'   \item{trial}{a measurement of how clear the diamond is (I1 (worst), SI2,
+#'     SI1, VS2, VS1, VVS2, VVS1, IF (best))}
+#'   \item{block}{aaa}
+#'   \item{rep}{shuahsuas}
+#'   \item{field_row}{length in mm (0--10.74)}
+#'   \item{field_col}{width in mm (0--58.9)}
+#'   \item{DMY}{depth in mm (0--31.8)}
+#'   \item{ADF}{total depth percentage = z / mean(x, y) = 2 * z / (x + y) (43--79)}
+#'   \item{ADL}{width of top of diamond relative to widest point (43--95)}
+#'   \item{DMDig}{bla bla}
+#'   \item{NDF}{lllll}
+#'   \item{NDFD}{hehehe}
+#'   \item{Prot}{bla bla bla}
+#'   \item{WSC}{bla bla bla bla}
+#' }
+#' @source \url{https://www.pnas.org/content/114/7/1512/tab-figures-data}
+"pheno"
