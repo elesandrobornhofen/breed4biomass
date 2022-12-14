@@ -4,23 +4,19 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of breed4biomass is to ...
+The goal of breed4biomass package is to make multi-omic as well as phenotypic data recorded in the 
+Breed for Biomass project ( grant ) readily available to the scientific community. The package contains
+data of nuclear magnetic resonance spectroscopy, RNA sequencing, and SNP-based genomic markers for 144 
+individuals. Samples are represented by family pools of hybrid ryegrass (79 entries) and 
+*Festulolium loliaceum* (65 entries).
+
 
 ## Installation
 
 You can install the development version of breed4biomass from [GitHub](https://github.com/) with:
 
 ``` r
-# install.packages("devtools")
-devtools::install_github("elesandrobornhofen/breed4biomass")
-```
-
-## Example
-
-This is a basic example which shows you how to solve a common problem:
-
-``` r
-library(breed4biomass)
-## basic example code
+# install.packages("remotes")
+remotes::install_github("elesandrobornhofen/breed4biomass")
 ```
 
