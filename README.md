@@ -1,6 +1,5 @@
-# breed4biomass <img src="man/figures/logo.png" align="right" height="135" />
+# breed4biomass <img src="man/figures/logo.png" align="right" height="150" />
 
-# breed4biomass
 
 <!-- badges: start -->
 <!-- badges: end -->
