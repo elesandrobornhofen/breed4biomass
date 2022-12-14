@@ -6,6 +6,8 @@
 \alias{breed4biomass-package}
 \title{breed4biomass: Phenotypic and Omics Data Sets for the Breed for Biomass Project}
 \description{
+\if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
+
 This package contains phenotypic data for eight traits assessed on F3 families of hybrid ryegrass and Festulollium loliacium grown in field trials in two locations. It also contains omics data for the same set of families. The omics are: SNP markers, gene expression, and NMR-based metabolomics.
 }
 \author{
