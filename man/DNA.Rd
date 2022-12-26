@@ -3,25 +3,26 @@
 \docType{data}
 \name{DNA}
 \alias{DNA}
-\title{Data of RNAseq-based gene expression}
+\title{Data of SNP markers}
 \format{
-A data frame with 556 rows and 144 variables.
+A data frame with 73,809 rows and 144 variables.
 }
 \source{
-\url{ insert here the URL to the preprint }
+\url{https://doi.org/10.1101/2022.12.23.521625}
 }
 \usage{
 DNA
 }
 \description{
-A dataset containing NMR variables obtained by processing the spectra with a bucketing algorithm
-(De Meyer et al., 2008). The data represents the area within each bin. All variables were
-mean-centered and Pareto scaled. There are 144 samples, which consists of 79 F2 families
-of hybrid ryegrass (samples b001 to b079) and 65 F2 families of \emph{Festulolium loliaceum}
-(samples b086 to b150).
+A data set containing 73,809 single-nucleotide polymorphism (SNP) markers called from RNA-seq data.
+Values represent frequencies (alternative read count divided by the total read count). There are 144 samples,
+which consists of 79 F2 families of hybrid ryegrass (samples b001 to b079) and 65 F2 families of
+\emph{Festulolium loliaceum} (samples b086 to b150). Missing allele frequencies were imputed using
+random forest (Mayer, 2021). The user is referred to the source link below for further information on
+data acquisition and processing.
 }
 \references{
-De Meyer et al. (2008) Anal. Chem. 2008, 80, 10, 3783–3790
-(\href{https://doi.org/10.1021/ac7025964}{doi.})
+Mayer M. (2021) Package "missRanger". v 2.1.3.
+(\href{https://github.com/mayer79/missRanger}{GitHub.})
 }
 \keyword{datasets}

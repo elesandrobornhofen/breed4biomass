@@ -4,11 +4,11 @@
 \name{breed4biomass-package}
 \alias{breed4biomass}
 \alias{breed4biomass-package}
-\title{breed4biomass: Phenotypic and Omics Data Sets for the Breed for Biomass Project}
+\title{breed4biomass: Omics Data Sets for the Breed for Biomass Project}
 \description{
 \if{html}{\figure{logo.png}{options: style='float: right' alt='logo' width='120'}}
 
-This package contains phenotypic data for eight traits assessed on F3 families of hybrid ryegrass and Festulollium loliacium grown in field trials in two locations. It also contains omics data for the same set of families. The omics are: SNP markers, gene expression, and NMR-based metabolomics.
+This package contains multi-omics data assessed on F2 families of hybrid ryegrass and Festulolium loliacium. These omics are: i) SNP markers, ii) gene expression, and iii) NMR-based metabolomics.
 }
 \author{
 \strong{Maintainer}: Elesandro Bornhofen \email{bornhofen@qgg.au.dk} (\href{https://orcid.org/0000-0002-7447-6226}{ORCID})
